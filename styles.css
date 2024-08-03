@@ -1,0 +1,152 @@
+body {
+    background-color: #eef529;
+    font-family: "Markazi Text", serif;
+    margin: 3rem; 
+  }
+  
+  /* Headings */
+  
+  h1 {
+    font-size: 3rem;
+    margin: 1.5rem 0; /* Consistent margin for top and bottom */
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  /* Text */
+  
+  p {
+    font-size: 1.4rem;
+    line-height: 1.5; /* Improves readability */
+  }
+  
+  /* Header */
+  
+  header .logo img {
+    display: block;
+    margin: 0 auto; /* Centers the logo horizontally */
+  }
+  
+  /* Navigation */
+  
+  nav {
+    background-color: #333;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 1.6rem; /* Slightly larger font for navigation */
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 1rem; /* Consistent margin between links */
+  }
+  
+  nav ul a {
+    color: #ebecd9;
+    text-decoration: none;
+  }
+  
+  nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+  }
+  
+  /* Sections & Articles */
+  
+  section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-bottom: 1rem;
+  }
+  @keyframes colorChange {
+    15% {
+      color: rgb(3, 3, 3);
+    }
+    25% {
+      color: rgb(219, 132, 11);
+    }
+    50% {
+      color: rgb(222, 222, 222);
+    }
+    75% {
+      color: rgb(0, 26, 255);
+    }
+    100% {
+      color: rgb(35, 122, 36);
+    }
+  }
+  a:visited{
+    background-color: rgb(32, 7, 82);
+  }
+  a:active{
+    background-color: rgb(46, 94, 196);
+  }
+  a:hover{
+    background-color: rgb(242, 167, 62);
+  }
+
+.animate {
+    font-size: 27px;
+  font-weight: bold;
+  animation: colorChange 5s infinite
+}
+  
+  article {
+    flex: 1;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #fff; /* Sets a white background for articles */
+    box-shadow: 0 0 0.6rem rgba(8, 230, 41, 0.276); /* Subtle shadow effect */
+
+    }
+    
+  article img {
+    max-width: 100%;
+  }
+  
+  article ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Special Offer Section */
+  
+  .special-offer article {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(40, 193, 131, 0.671));
+    background-size: cover;
+    background-position: 75%;
+    color: white;
+    padding: 2rem; /* Adjust padding to accommodate background image */
+  }
+  
+  .special-offer article p {
+    max-width: 70%; /* Adjust max-width for better text fit */
+  }
+  
+  /* Footer */
+  
+  footer {
+    display: flex;
+    gap: 2rem 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-top: 1px solid #06164a; /* Adds a subtle top border */
+  }
+  
+  footer .logo img {
+    max-width: 10%;
+  }
+  
+  footer .copyright {
+    text-align: right;
+  }
+  
